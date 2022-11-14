@@ -1,13 +1,12 @@
 #include <FastLED.h>
 
-#define DATA_PIN 26
-#define LED_PIN     10
-#define CLOCK_PIN   9
-#define COLOR_ORDER BGR  //if your colors look incorrect, change the color order here
 #define NUM_LEDS    20
-
-#define BRIGHTNESS  255
+// BRIGHTNESS < 256
+#define BRIGHTNESS  200
 #define FRAMES_PER_SECOND 20
+
+#define DATA_PIN    26
+#define COLOR_ORDER BGR  //if your colors look incorrect, change the color order here
 
 CRGB leds[NUM_LEDS];
 
