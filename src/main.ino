@@ -11,8 +11,9 @@
 #include <FastLED.h>
 
 #define LED_PIN 26
-#define NUM_LEDS 20
-#define BRIGHTNESS 96
+#define NUM_LEDS 72
+#define BRIGHTNESS 200
+/* #define BRIGHTNESS 96 */
 #define LED_TYPE SK6812
 /* #define LED_TYPE WS2812B */
 #define COLOR_ORDER GRB
